@@ -100,6 +100,7 @@ audio files.
 # /bin/ld: FLTK/Fl_My_Native_File_Chooser.o: undefined reference to symbol 'XNextEvent'
 # /bin/ld: FLTK/flgui.o: undefined reference to symbol '_ZN16Fl_Double_Window4hideEv'
 %configure LIBS="-lX11 -lfltk" %{!?with_aac:--disable-aac}
+rpm -i https://github.com/reztek/butt/raw/master/fdk-aac-devel-2.0.1-2.fc32.x86_64.rpm
 make %{?_smp_mflags}
 
 
