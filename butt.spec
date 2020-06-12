@@ -48,7 +48,7 @@ Summary:        butt is an easy to use, multi OS streaming tool
 
 License:        GPLv2 
 URL:            http://danielnoethen.de/butt/
-Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/reztek/butt/raw/master/butt-0.1.21.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  dbus-devel
