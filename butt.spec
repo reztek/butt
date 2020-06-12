@@ -24,7 +24,7 @@
 
 # Conditional build support
 # add --with aac option, i.e. disable AAC by default
-%bcond_with aac
+%bcond_without aac
 
 # add --without flac option, i.e. enable FLAC by default
 %bcond_without flac
@@ -42,7 +42,7 @@
 %global iconsdir %{_datadir}/icons
 
 Name:           butt
-Version:        0.1.20
+Version:        0.1.21
 Release:        0.1%{?dist}
 Summary:        butt is an easy to use, multi OS streaming tool
 
